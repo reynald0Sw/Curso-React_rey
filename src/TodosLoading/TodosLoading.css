@@ -1,4 +1,4 @@
-.LoadingTodo-container {
+/* .LoadingTodo-container {
   position: relative;
   display: flex;
   justify-content: center;
@@ -57,3 +57,82 @@
     background-position: 0% 50%;
   }
 }
+
+ */
+
+
+.LoadingTodo-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+  border-radius: 10px;
+  padding: 12px;
+  background-color: #474545;
+  perspective: 800px;
+}
+
+.LoadingTodo-dotsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  perspective: 800px;
+}
+
+.LoadingTodo-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #7c34db;
+  margin: 0 4px;
+  animation: jumpDots 0.5s alternate infinite ease-in-out;
+  transform-style: preserve-3d;
+}
+
+@keyframes jumpDots {
+  0% {
+    transform: translateZ(0) translateY(0);
+  }
+  50% {
+    transform: translateZ(20px) translateY(-10px);
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+  }
+}
+
+.LoadingTodo-loadingBar {
+  width: 200px;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.LoadingTodo-progress {
+  height: 100%;
+  width: 0;
+  background-color: #020202;
+  animation: fillProgress 1s linear forwards;
+}
+
+@keyframes fillProgress {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.LoadingTodo-text {
+  font-size: 16px;
+  color: #777;
+}
+
+ 

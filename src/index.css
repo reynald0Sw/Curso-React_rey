@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: #F2F4F5;
-  color: #1E1E1F;
+  background: #3f4142;
+  color: #e1e1e9;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
@@ -11,3 +11,5 @@ body {
   position: relative;
   min-height: 100vh;
 }
+
+
