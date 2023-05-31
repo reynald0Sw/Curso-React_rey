@@ -10,6 +10,7 @@ function TodoCounter() {
   
   return (
     <h1 className="TodoCounter">
+      <p>DEATH NOTE </p>
       Complete <span>{completedTodos}</span> of <span>{totalTodos}</span> kills
     </h1>
   );

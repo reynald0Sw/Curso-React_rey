@@ -1,9 +1,15 @@
+@font-face {
+  font-family: 'DeathNoteFont';
+  src: url('./letra/DEATHNOTEFont.ttf') format('truetype');
+  
+}
+
 body {
   margin: 0;
   padding: 0;
-  background: #3f4142;
+  background: black;
   color: #e1e1e9;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-family: 'DeathNoteFont', 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 #root {
@@ -11,5 +17,3 @@ body {
   position: relative;
   min-height: 100vh;
 }
-
-
