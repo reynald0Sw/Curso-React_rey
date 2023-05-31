@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Curso-React_rey/static/css/main.922d2ec9.css",
-    "main.js": "/Curso-React_rey/static/js/main.fa4eee26.js",
+    "main.css": "/Curso-React_rey/static/css/main.03908cf2.css",
+    "main.js": "/Curso-React_rey/static/js/main.24b2b526.js",
+    "static/media/DEATHNOTEFont.ttf": "/Curso-React_rey/static/media/DEATHNOTEFont.f47b875b5ad7fe90bb54.ttf",
     "index.html": "/Curso-React_rey/index.html",
     "static/media/delete.svg": "/Curso-React_rey/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
     "static/media/check.svg": "/Curso-React_rey/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
-    "main.922d2ec9.css.map": "/Curso-React_rey/static/css/main.922d2ec9.css.map",
-    "main.fa4eee26.js.map": "/Curso-React_rey/static/js/main.fa4eee26.js.map"
+    "main.03908cf2.css.map": "/Curso-React_rey/static/css/main.03908cf2.css.map",
+    "main.24b2b526.js.map": "/Curso-React_rey/static/js/main.24b2b526.js.map"
   },
   "entrypoints": [
-    "static/css/main.922d2ec9.css",
-    "static/js/main.fa4eee26.js"
+    "static/css/main.03908cf2.css",
+    "static/js/main.24b2b526.js"
   ]
 }
